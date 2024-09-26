@@ -81,3 +81,7 @@ pub use self::avx512fp16::*;
 mod amx;
 #[unstable(feature = "x86_amx_intrinsics", issue = "126622")]
 pub use self::amx::*;
+
+mod waitpkg;
+#[unstable(feature = "x86_waitpkg_intrinsics", issue = "")]
+pub use self::waitpkg::*;
